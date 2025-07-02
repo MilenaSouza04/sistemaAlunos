@@ -40,7 +40,7 @@ void deveAdicionarEConsultarTreinos() { // Corresponde a "Adicionar Treino Váli
         assertTrue(avaliacoes.contains("2025-08-01"));
     }
 
-    // Novos testes funcionais
+    // Novos Testes Funcionais
     @Test
     void deveRetornarListaDeTreinosVaziaQuandoNenhumTreinoAdicionado() { // Corresponde a "Consultar Treinos Vazios"
         Aluno aluno = new Aluno("João", "joao@email.com");
