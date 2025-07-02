@@ -8,7 +8,6 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class AlunoTest {
 
-// Testes funcionais
 @Test
 void deveAdicionarEConsultarTreinos() { // Corresponde a "Adicionar Treino Válido" e "Adicionar Múltiplos Treinos"
     Aluno aluno = new Aluno("Milena", "milena@email.com");
@@ -80,8 +79,7 @@ void deveAdicionarEConsultarTreinos() { // Corresponde a "Adicionar Treino Váli
         assertEquals("Treino C", treinos.get(2));
     }
 
-
-// Testes unitários existentes (do seu código)
+// Testes unitários existentes
 @Test
 void naoDeveAdicionarTreinoNuloOuVazio() { // Corresponde a "Adicionar Treino Nulo"
     Aluno aluno = new Aluno("Milena", "milena@email.com");
