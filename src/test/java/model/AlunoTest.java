@@ -51,7 +51,7 @@ void deveAdicionarEConsultarTreinos() { // Corresponde a "Adicionar Treino Váli
 
     @Test
     void deveRetornarListaDeMensagensVaziaQuandoNenhumMensagemEnviada() {
-        Aluno aluno = new Aluno("Maria", "maria@email.com");
+        Aluno aluno = new Aluno("Maria Souza", "maria@email.com");
         List<String> mensagens = aluno.consultarMensagens();
         assertTrue(mensagens.isEmpty());
         assertEquals(0, mensagens.size());
