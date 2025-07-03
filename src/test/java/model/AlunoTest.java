@@ -12,7 +12,7 @@ class AlunoTest {
 void deveAdicionarEConsultarTreinos() { // Corresponde a "Adicionar Treino Válido" e "Adicionar Múltiplos Treinos"
     Aluno aluno = new Aluno("Milena", "milena@email.com");
     aluno.adicionarTreino("Treino de pernas");
-    aluno.adicionarTreino("Treino de peito");
+    aluno.adicionarTreino("Treinos de peito");
     List<String> treinos = aluno.consultarTreinos();
     assertEquals(2, treinos.size());
     assertTrue(treinos.contains("Treino de pernas"));
