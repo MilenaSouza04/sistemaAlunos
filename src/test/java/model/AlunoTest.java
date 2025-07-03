@@ -120,7 +120,7 @@ void gettersDevemRetornarValoresCorretos() { // Corresponde a "Getters de Nome e
     String email = "ana@email.com";
     Aluno aluno = new Aluno(nome, email);
     assertEquals(nome, aluno.getNome());
-    assertEquals(email, aluno.getEmail());
+    assertEquals(email, aluno.getEmail());//oiii
    }
 
 // Testes de Desempenho
